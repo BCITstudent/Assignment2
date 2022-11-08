@@ -11,8 +11,10 @@
 //     console.log(Math.pow(2 **i))
 //     i++;
 // }
+let input;
 do{
 let input = prompt ("What is your name?");
 console.log(Number(input));
 }
-while()
+while(!isNaN(Number(input)));
+alert("Hello " + input);
