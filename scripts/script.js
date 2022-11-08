@@ -11,10 +11,23 @@
 //     console.log(Math.pow(2 **i))
 //     i++;
 // }
-let input;
-do{
-let input = prompt ("What is your name?");
-console.log(Number(input));
-}
-while(!isNaN(Number(input)));
-alert("Hello " + input);
+// let input;
+// do{
+// let input = prompt ("What is your name?");
+// console.log(Number(input));
+// }
+// while(!isNaN(Number(input)));
+// alert("Hello " + input);
+
+let fruits=["Apple", "Banana"];
+fruits.push("Orange");
+console.log(fruits);
+
+fruits.pop();
+console.log(fruits);
+
+fruits.unshift("Mango");
+console.log(fruits);
+
+fruits.shift();
+console.log(fruits);
