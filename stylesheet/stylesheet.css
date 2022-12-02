@@ -1,0 +1,188 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body.light{
+    background-color: rgb(238,229,218);
+    color: #3c5f6f;  
+}
+
+body.dark{
+    color: #f9f3ec;
+    background-color: #161616;  
+}
+
+h1,h2{
+    text-align: center
+}
+
+nav ul {
+    display:flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    padding:5px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a.dark{
+    color:#ffffff
+}
+
+nav a.dark:visited{
+    color:#aaaaaa
+}
+
+button{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color:white;
+    margin: 5px;
+}
+
+button.light{
+    background-color: rgb(83,148,160);
+}
+
+button.dark{
+    background-color: rgb(111,106,135);
+}
+
+button.dark:hover{
+    background-color: #6380baeb;
+}
+
+button:hover{
+    background-color: darkcyan;
+}
+
+button:active{
+    transform: translateY(2px);
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    height: 100px;
+    border:0px;
+}
+
+textarea.light{
+    background-color: white;
+    color: black;
+}
+
+textarea.dark{
+    background-color: #ffffff1a;
+    color: #f9f3ec;
+}
+
+#Dark.dark{
+    background-color: #f9f3ec;
+    color: #454253dc;
+}
+
+#Dark.dark:hover{
+    background-color: #FFFFFF;
+}
+
+#Dark.light {
+    background-color: #6f6a87;
+    color: #f9f3ec;
+}
+
+#Dark.light:hover{
+    background-color: #454253dc;
+}
+
+#Cancel.light{
+    background-color: #c14d4d;
+}
+
+#Cancel.dark{
+    background-color: #632424;
+}
+
+#Cancel.dark:hover{
+    background-color: #94242a;
+}
+
+#Cancel.light:hover{
+    background-color: #d9343c;
+}
+
+div.Textbox div{
+    display:flex;    
+}
+
+div.Textbox div {
+    justify-content:space-between
+}
+
+div.Textbox div.FlexboxBottom{
+    justify-content: flex-end;
+}
+
+section ul{
+    display:flex;
+}
+
+aside.light{
+    background-color: rgb(249,243,236);
+}
+
+aside.dark{
+    background-color: #ffffff1a;
+}
+
+aside ul {
+    list-style-type: square;
+    text-align: center;
+}
+
+aside ul li {
+    cursor: pointer;
+}
+
+footer nav ul{
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer ul li button.light,footer ul li button.light:hover{
+    background-color: #f9f3ec;
+}
+
+footer ul li button.dark, footer ul li button.dark:hover{
+    background-color: #161616;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        display:grid;
+        grid-template-columns: 1fr 4fr;
+        margin:0px;
+        column-gap: 10px;
+    }
+    nav ul {
+        flex-direction: row;
+        justify-content: right;
+    } 
+    aside{
+        height:100vh;
+    }
+    aside ul {
+        text-align: left;
+    }
+}
