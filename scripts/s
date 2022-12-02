@@ -1,0 +1,22 @@
+class Note {
+    constructor(title, body) {
+      this.title = title;
+      this.body = body;
+    }
+  }
+
+  let FirstNote = new Note("Note one", "Here is the first note.");
+  let SecondNote = new Note("Note two", "Here is the second note.");
+  let NoteArray = [FirstNote, SecondNote];
+  
+  const NoteList_HTML = document.querySelector(".NoteList");
+  const NoteArea = [
+    document.getElementById("Cancel"),
+    document.getElementById("Save"),
+    document.querySelector("textarea")
+  ];
+
+  const Color_List = [];
+  for (element of document.getElementsByClassName("light")) {
+    Color_List.push(element);
+  };
