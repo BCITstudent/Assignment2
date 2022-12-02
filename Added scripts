@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take Better Notes</title>
+    <link href=stylesheet/stylesheet.css rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <script src="Javascript/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+    <div id="one">
+    <header>
+    <h1>Take Better Notes</h1>
+    </header>
+    </div>
+    <div id="two">
+    <section>
+        <p>About   Docs</p>
+    </section>
+    </div>
+    <div id="three">
+        <h1>My Notes</h1>
+    <ul style="list-style-type: square;">
+        <li>note one</li>
+        <li>note two</li>
+    </ul>
+    </div>
+    <div id="six">
+    <label for="story"></label>
 
+    <textarea id="story" name="story"
+        rows="10" cols="60"
+        placeholder="This is a placeholder">
+    </textarea>
+    </div>
+    <div id="seven">
+        <button class="new-styled"
+            type="button">
+            New Note
+        </button>
+    </div>
+    <div id="eight">
+    <button class="dark-theme"
+        type="button">
+        Dark Theme
+    </button>
+    </div>
+    <div id="nine">
+    <button class="save"
+        type="button">
+        Save
+    </button>
+    </div>
+    <div id="ten">
+    <button class="cancel"
+        type="button">
+        Cancel
+    </button>
+    </div>
+    <div id="five">
+    <footer>
+        <p>Keep In Touch</p>
+        <nav>
+            <a href="https://www.linkedin.com/"><img src="images/linkedin_circle_color-512.webp" alt="Linkedin Circle" width="50" length="50"></a>
+            <a href="https://www.teksavvy.com/services/internet/"><img src="images/Internet_Line-02-512.webp" alt="Internet Line" width="50" length="50"></a>
+        </nav>
+    </footer>
+    </div>
+    </div>
+</body>
+</html>
